@@ -14,6 +14,8 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: ^0.17.0
+  dio: ^4.0.6
+  logger: ^1.1.0
 
 dev_dependencies:
   bloc_test: ^9.0.3
