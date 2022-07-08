@@ -6,14 +6,14 @@
 // https://opensource.org/licenses/MIT.
 
 import 'package:flutter_biolerplate/app/app.dart';
-import 'package:flutter_biolerplate/counter/counter.dart';
+import 'package:flutter_biolerplate/presentations/home/view/home_view.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   group('App', () {
     testWidgets('renders CounterPage', (tester) async {
       await tester.pumpWidget(const App());
-      expect(find.byType(CounterPage), findsOneWidget);
+      expect(find.byType(HomeView), findsOneWidget);
     });
   });
 }

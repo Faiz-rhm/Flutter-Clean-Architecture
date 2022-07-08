@@ -6,7 +6,7 @@
 // https://opensource.org/licenses/MIT.
 
 import 'package:flutter_biolerplate/app/app.dart';
-import 'package:flutter_biolerplate/bootstrap.dart';
+import 'package:flutter_biolerplate/main/bootstrap.dart';
 
 void main() {
   bootstrap(() => const App());
