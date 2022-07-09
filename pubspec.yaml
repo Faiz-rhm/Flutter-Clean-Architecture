@@ -16,6 +16,9 @@ dependencies:
   intl: ^0.17.0
   dio: ^4.0.6
   logger: ^1.1.0
+  connectivity_plus: ^2.3.5
+  url_launcher: ^6.1.4
+  shared_preferences: ^2.0.15
 
 dev_dependencies:
   bloc_test: ^9.0.3
