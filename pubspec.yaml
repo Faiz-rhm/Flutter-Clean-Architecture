@@ -19,6 +19,7 @@ dependencies:
   connectivity_plus: ^2.3.5
   url_launcher: ^6.1.4
   shared_preferences: ^2.0.15
+  material_color_utilities: ^0.1.4
 
 dev_dependencies:
   bloc_test: ^9.0.3
