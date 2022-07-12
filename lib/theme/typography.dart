@@ -1,11 +1,5 @@
-// Copyright 2022 Fredrick Allan Grott. All rights reserved.
-// Use of this source code is governed by a BSD-style
-// license that can be found in the LICENSE file.
-
 import 'package:flutter/material.dart';
-
 import 'package:flutter_biolerplate/theme/theme_shadows.dart';
-
 
 // Gist: The way to do Typography and TextTheme is to keep the
 //       MD3 defaults and assign custom fonts but use specialized
