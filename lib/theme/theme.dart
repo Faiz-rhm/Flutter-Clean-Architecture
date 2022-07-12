@@ -1,10 +1,17 @@
 
 
 import 'package:flutter/material.dart';
-
+import 'package:flutter_biolerplate/theme/app_bar_theme.dart';
 import 'package:flutter_biolerplate/theme/app_brand_color.dart' show AppBrandColors, brandOneDarkPrimary, brandOneLightPrimary, brandThreeDarkPrimary, brandThreeLightPrimary, brandTwoDarkPrimary, brandTwoLightPrimary;
 import 'package:flutter_biolerplate/theme/app_colors.dart';
+import 'package:flutter_biolerplate/theme/card_theme.dart';
+import 'package:flutter_biolerplate/theme/drawar_theme_data.dart';
+import 'package:flutter_biolerplate/theme/elevated_button_theme_data.dart';
+import 'package:flutter_biolerplate/theme/icon_theme_data.dart';
+import 'package:flutter_biolerplate/theme/list_tile_theme_data.dart';
+import 'package:flutter_biolerplate/theme/text_theme.dart';
 import 'package:flutter_biolerplate/theme/theme_defaults.dart';
+import 'package:flutter_biolerplate/theme/typography.dart';
 
 ThemeData appLightThemeData = ThemeData(
   applyElevationOverlayColor: true,
@@ -44,7 +51,23 @@ ThemeData appLightThemeData = ThemeData(
   errorColor: appMaterialLightErrorColor,
   toggleableActiveColor: appMaterialLightToggleableActiveColor,
 
+  typography: appTypography,
+  textTheme: appMateriaLightTextTheme,
+  primaryTextTheme: appMaterialLightPrimaryTextTheme,
 
+  appBarTheme: appMaterialLightAppBarTheme.copyWith(),
+
+  cardTheme: appMaterialLightCardTheme,
+
+  drawerTheme: appMaterialLightDrawerThemeData.copyWith(),
+
+  elevatedButtonTheme: appMaterialLightElevatedButtonThemeData,
+
+  iconTheme: appMaterialLightIconThemeData,
+
+  listTileTheme: appMaterialLightListTileThemeData,
+
+  primaryIconTheme: appMaterialLightIconThemeData,
 
 );
 
@@ -85,6 +108,23 @@ ThemeData  appDarkThemeData = ThemeData(
   errorColor: appMaterialDarkErrorColor,
   toggleableActiveColor: appMaterialDarkToggleableActiveColor,
 
+  typography: appTypography,
+  textTheme: appMaterialDarkTextTheme,
+  primaryTextTheme: appMaterialDarkPrimaryTextTheme,
+
+  appBarTheme: appMaterialDarkAppBarTheme.copyWith(),
+
+  cardTheme: appMaterialDarkCardTheme,
+
+  drawerTheme: appMaterialDarkDrawerThemeData.copyWith(),
+
+  elevatedButtonTheme: appMaterialDarkElevatedButtonThemeData,
+
+  iconTheme: appMaterialDarkIconThemeData,
+
+  listTileTheme: appMaterialDarkListTileThemeData,
+
+  primaryIconTheme: appMaterialDarkIconThemeData,
 
 
 );
