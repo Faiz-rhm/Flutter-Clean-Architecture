@@ -5,19 +5,8 @@ import 'package:flutter_biolerplate/theme/app_colors.dart';
 import 'package:flutter_biolerplate/theme/primary_icon_theme.dart';
 import 'package:flutter_biolerplate/theme/theme_defaults.dart';
 
-
-// Gist: We keep component themes to MD3 specs and do the design tweaks and twists at
-//       themedata or at widget levels.
-//
-//       Note that we actually have Large, Medium, and Small Appbar according to Titles used
-//       even though there is no speical named constrcutors for those. So we leave setting
-//       of AppBar Title size at the widget or in the case of a shared scaffold at the
-//       shared scaffold.
-
-
 final AppBarTheme appMaterialLightAppBarTheme = AppBarTheme(
   backgroundColor: appLightColorScheme.surface,
-
   foregroundColor: appLightColorScheme.onSurface,
   elevation: appBarElevation,
   shadowColor: Colors.transparent,
@@ -45,11 +34,10 @@ TextStyle appBarLightToolbarStyle = TextStyle(
 
 final AppBarTheme appMaterialDarkAppBarTheme = AppBarTheme(
   backgroundColor: appDarkColorScheme.surface,
-
   foregroundColor: appDarkColorScheme.onSurface,
   elevation: appBarElevation,
   shadowColor: Colors.transparent,
-  centerTitle: false,
+  centerTitle: true,
   iconTheme: appMaterialDarkPrimaryIconTheme,
   actionsIconTheme: appMaterialDarkPrimaryIconTheme,
   titleSpacing: 2,
