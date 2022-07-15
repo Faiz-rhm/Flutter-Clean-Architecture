@@ -5,10 +5,12 @@ import 'package:flutter_biolerplate/theme/app_bar_theme.dart';
 import 'package:flutter_biolerplate/theme/app_brand_color.dart' show AppBrandColors, brandOneDarkPrimary, brandOneLightPrimary, brandThreeDarkPrimary, brandThreeLightPrimary, brandTwoDarkPrimary, brandTwoLightPrimary;
 import 'package:flutter_biolerplate/theme/app_colors.dart';
 import 'package:flutter_biolerplate/theme/card_theme.dart';
+import 'package:flutter_biolerplate/theme/check_box_theme.dart';
 import 'package:flutter_biolerplate/theme/drawar_theme_data.dart';
 import 'package:flutter_biolerplate/theme/elevated_button_theme_data.dart';
 import 'package:flutter_biolerplate/theme/icon_theme_data.dart';
 import 'package:flutter_biolerplate/theme/list_tile_theme_data.dart';
+import 'package:flutter_biolerplate/theme/text_field_theme.dart';
 import 'package:flutter_biolerplate/theme/text_theme.dart';
 import 'package:flutter_biolerplate/theme/theme_defaults.dart';
 import 'package:flutter_biolerplate/theme/typography.dart';
@@ -69,6 +71,10 @@ ThemeData appLightThemeData = ThemeData(
 
   primaryIconTheme: appMaterialLightIconThemeData,
 
+  inputDecorationTheme: appMaterialLightInputThemeData,
+
+  checkboxTheme: appMaterialLightCheckBoxThemeData,
+
 );
 
 ThemeData  appDarkThemeData = ThemeData(
@@ -126,5 +132,8 @@ ThemeData  appDarkThemeData = ThemeData(
 
   primaryIconTheme: appMaterialDarkIconThemeData,
 
+  inputDecorationTheme: appMaterialDarkInputThemeData,
+
+  checkboxTheme: appMaterialDarkCheckBoxThemeData,
 
 );
