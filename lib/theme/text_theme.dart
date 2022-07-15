@@ -1,57 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_biolerplate/theme/app_colors.dart';
 
-// Gist: This is the first level where we can apply Design Twist and Tweaks to
-//       Material Design 3 spec of Typography expressed in the Typography class.
-//       Keep in mind that this is the first phase of switching to
-//      variable fonts where we still load things the non-variable font way but
-//      use a variable serif font that has optical scaling as part of our
-//      font pairing.
-//
-//      My Font Pairing Is
-//      Variable Serif with Optical Sizing is Fraunces
-//
-//      Fraucnes(Soft Serif)
-//         Black      900
-//         Extra Bold 800
-//         Bold       700
-//         Semi Bold  600
-//         Medium     500
-//         Regular    400
-//         Light      300
-//         ExtraLight 200
-//         Thin       100
-//
-//     Libre Franklin(Sans)
-//         Black        900
-//         Extra Bold   800
-//         Bold         700
-//         Semi Bold    600
-//         Medium       500
-//         Regular      400
-//         Light        300
-//         Exra Light   200
-//         Thin         100
-//
-//        Material Design 3 Original Settings For Text
-//              displaylarge fontWeight w400
-//              displayMedium fontWeight w400
-//              displaySmall fontWeight w400
-//              headlineLarge fontweight w400
-//              haedlineMedium fontWeight w400
-//              headlineSmall fontWeight w400
-//              titleLarge fontWeight w400
-//              titleMedium fontWeight w500
-//              titleSmall fontWeight w500
-//              labelLarge fontWeight w500
-//              labelMedium fontWeight w500
-//              labelSmall fontWeigth w500
-//              bodyLarge fontWeight w400
-//              bodyMedium fontWeight w400
-//              bodySmall fontWeight w400
-//
-//    Right now going with having the MD3 deviations at the textSpan and individual widgetlevel
-
 const TextTheme appMateriaLightTextTheme = TextTheme(
   displayLarge: TextStyle(
     fontStyle: FontStyle.normal,
