@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:material_color_utilities/material_color_utilities.dart';
 
-// Gist: The difference between App ColorScheme and Web App ColorScheme is that
-//       we are not adjusting to the underlying ColorScheme changing based on
-//       the OS system Theme colors like in mobile. Thus, we do not
-//       harmonize the blend of Brand colors with the underlying color of
-//       the UI component.
-
 const Color brandColorOne = Color(0xfff77f7f);
 
 const Color brandColorTwo = Color(0xffdd7e51);
