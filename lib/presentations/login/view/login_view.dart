@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_biolerplate/app/shared/sized_box.dart';
+import 'package:flutter_biolerplate/app/helper/constant/sized_box.dart';
 import 'package:flutter_biolerplate/app/widgets/custom_app_bar.dart';
 import 'package:flutter_biolerplate/app/widgets/custom_text_field.dart';
 
