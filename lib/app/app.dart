@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_biolerplate/app/l10n/l10n.dart';
-import 'package:flutter_biolerplate/presentations/login/view/login_view.dart';
+import 'package:flutter_biolerplate/presentations/login/view/login_page.dart';
 import 'package:flutter_biolerplate/theme/theme.dart';
 
 class App extends StatelessWidget {
@@ -18,7 +18,7 @@ class App extends StatelessWidget {
         AppLocalizations.delegate,
       ],
       supportedLocales: AppLocalizations.supportedLocales,
-      home: const LoginView(),
+      home: const LoginPage(),
     );
   }
 }
